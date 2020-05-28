@@ -1,0 +1,22 @@
+summary: "Netflix shows recommendation API"
+description: "Accepts a JSON request with a show title and returns the top 5 similar shows along with the confidence about these recommendations."
+consumes:
+- "application/json"
+produces:
+- "application/json"
+parameters:
+- in: "body"
+  name: "JSON"
+  description: "See below default example for acceptable JSON format"
+  required: true
+  schema:
+    type: "object"
+    properties:
+      title:
+        type: "string"
+        example : "The Matrix"
+responses:
+  200:
+    description: "Success"
+  405:
+    description: "Invalid Request"
