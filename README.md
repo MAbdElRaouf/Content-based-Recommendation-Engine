@@ -1,7 +1,7 @@
 # Simple Content-based Recommendation Engine API With Flask [Heroku Deployed]
 
 > A simple content-based Netflix shows recommendation engine run as an API with Flask and deployed to Heroku.
-> Medium article:
+> Medium article: https://medium.com/@MAbdElRaouf/simple-content-based-recommendation-engine-flask-api-heroku-dd27760dfe8e
 # Installation
 1. Create new folder named "Netflix Shows Recommendation API"
 2. Open a new command (or Anaconda) prompt inside the folder, or point terminal directory to its path:
@@ -43,7 +43,7 @@
 
 - Start the recommendation engine API locally by running `recommendation_api.py`.
 
-- To run it on Heroku's cloud, see the setup instructions [here](www.medium.com).
+- To run it on Heroku's cloud, see the setup instructions [here](https://medium.com/@MAbdElRaouf/simple-content-based-recommendation-engine-flask-api-heroku-dd27760dfe8e).
 
 - Communicating with the API can be either through sending JSON POST requests to endpoint /api/ or interacting with the Swagger UI at endpoint /apidocs/
     - Example 1: POST request to https://netflix-recommendation-api.herokuapp.com/api with payload:
