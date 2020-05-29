@@ -31,9 +31,8 @@
 
 8. Create Procfile for Heroku declaring gunicorn as the process type:
     ```sh
-    echo "web: gunicorn recommendation_api:app" > Procfile
+    echo web: gunicorn recommendation_api:app > Procfile
     ```
-    Inspect created file and make sure there are no quotation "" marks.
 
 
 
