@@ -18,9 +18,9 @@
     ```sh
     recommendation_api_env\Scripts\activate
     ```
-5. The packages required for this project are pandas, scikit-learn, flask and gunicorn. Run the following command to batch install them:
+5. The packages required for this project are pandas, scikit-learn, flask, gunicorn and flasgger. Run the following command to batch install them:
     ```sh
-    pip install pandas sklearn flask gunicorn
+    pip install pandas sklearn flask gunicorn flasgger
     ```
 6. After it has finished installing, save the project's list of packages to a text file with this command. Heroku uses this file as reference to what packages to install:
     ```sh
